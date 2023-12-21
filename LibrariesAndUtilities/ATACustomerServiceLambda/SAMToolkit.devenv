@@ -1,0 +1,33 @@
+# IMPORTANT: make sure user was not created with 
+# "Make these IAM credentials only usable within the Amazon network" checked (DragonIPWhitelisting).
+# See https://sage.amazon.com/questions/285799
+
+# SAM_ODIN=${SAM_ODIN:-"YOUR_ODIN_MATERIAL_SET_NAME_HERE"}
+
+
+# For assuming roles. Used with both Isengard and Identity Broker.
+# For testing in your local account, this should be your personal account ID! (A burner account id can also work, if it's enrolled with identity broker)
+SAM_ASSUME_ACCOUNT_ID=""
+
+# If specified, we'll try to use the AWS Identity broker
+# We recommend you use groups. Follow the instructions here : https://w.amazon.com/index.php/Getting_Started_with_Identity_Broker
+#SAM_IDENTITY_BROKER_POSIX_GROUP_NAME=""
+
+# If this is specified, we'll try to use Isengard assume role
+# This is literally just the role name in Isengard that you want us to use during deployments.
+
+SAM_ISENGARD_ROLE_NAME="SAMDeployer"
+
+
+# This is where we want our dev stacks to be deployed
+SAM_REGION=${SAM_REGION:-"us-west-2"}
+SAM_STACK=${SAM_STACK:-"sam-dev-${USER}-$(basename $(pwd))"}
+
+# The S3 bucket used to store code archives (auto-created).
+SAM_BUCKET="sam-dev-${SAM_REGION}-${USER}-${SAM_ASSUME_ACCOUNT_ID}"
+
+# Any CloudFormation parameters your stack may require
+SAM_DEPLOY_ARGS="--parameters ParameterKey=Stage,ParameterValue=test ParameterKey=UseBatsKeyParam,ParameterValue=true"
+
+# Any directories relative to the root of the runtime closure to be included in the final archive
+SAM_DATAFILES=""

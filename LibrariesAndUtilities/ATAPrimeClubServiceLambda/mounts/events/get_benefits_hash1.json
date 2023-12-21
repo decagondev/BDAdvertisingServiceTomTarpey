@@ -1,0 +1,30 @@
+{
+  "requestContext": {
+    "httpMethod": "GET",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "path": "/benefits/1/12345678908",
+    "extendedRequestId": null,
+    "resourceId": "123456",
+    "apiId": "1234567890",
+    "stage": "prod",
+    "resourcePath": "/benefits/{marketplaceId}/{customerId}",
+    "identity": {
+      "accountId": null,
+      "apiKey": null,
+      "userArn": null,
+      "cognitoAuthenticationProvider": null,
+      "cognitoIdentityPoolId": null,
+      "userAgent": "Custom User Agent String",
+      "caller": null,
+      "cognitoAuthenticationType": null,
+      "sourceIp": "127.0.0.1",
+      "user": null
+    },
+    "accountId": "123456789012"
+  },
+  "pathParameters": {
+    "marketplaceId": "1",
+    "customerId": "12345678908"
+  },
+  "isBase64Encoded": false
+}

@@ -1,0 +1,364 @@
+{
+  "Content": [
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0859b575-7e33-401c-9dcb-401e5f695d64"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Learn more about Amazon Technical Academy.  Click here!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00ce40-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "<div class=\"ata-ad\"></div> "
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00d1f6-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Hey there parent, join ATA!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "1d2e74a6-9b4b-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Hey there parent, join ATA in Seattle!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "1d2e7910-9b4b-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Become a Software Developer. Stop Dreaming, Start Training. Join ATA Today!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "3b90a0a0-9be5-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Learn how you can start a new career as an Amazon Software Developer. Attend a free Java class in your area. Learn more today!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b63284a-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Need a New Career? Become a Software Developer, join ATA!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b632bce-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Go back to school they say! Ain't nobody got time for that! Start a career in software development in just 15 months. Attend our FREE session. Learn how to get paid to go to school with Amazon Technical Academy."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b632e26-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Java! It's not just coffee, it could be your next career. Learn how ATA can help you become a Software Developer Today!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b63307e-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Someone has to program the Robots. Why not you? Click to learn how you can become a Software Developer with Amazon Technical Academy"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b6332d6-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "You are in demand if you can code! Join ATA and get the skills needed to become a Software Development Engineer! Learn How."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b633934-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "How is shoveling snow like software development? They're both hard work, but you'll get paid a lot more as a software developer. Join ATA"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b633bb4-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Is your adult child struggling to find a new career? Amazon Technical Academy may be the answer. Learn more."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b633dee-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "¡Obtenga una carrera como Ingeniero de Software! Unase al programa de Amazon Technical Academy."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b63403c-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "¿Quiere ayudar a su hijo(a) obtener una buena carrera pero no tiene los recursos necesarios?  Amazon Technical Academy ofrece un program de Ingeniria de Software gratis. ¡Aprende como su hijo(a) puede calificar hoy!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b63428a-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "ATVPDKIKX0DER"
+          },
+          "RenderableContent": {
+            "S": "Hey there person over 18, join ATA in Seattle!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00cbfc-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A1AM78C64UM0Y8"
+          },
+          "RenderableContent": {
+            "S": "Learn more about Amazon Technical Academy.  Click here!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00d07a-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A1AM78C64UM0Y8"
+          },
+          "RenderableContent": {
+            "S": "<div class=\"ata-ad\"></div> "
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b634500-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A1AM78C64UM0Y8"
+          },
+          "RenderableContent": {
+            "S": "¿Quiere aprender a programar? Curos de Java Basico Online gratis. Aprenda como ATA le puede ayudar lograr su futuro."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b6359f0-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A1AM78C64UM0Y8"
+          },
+          "RenderableContent": {
+            "S": "¡Obtenga una carrera como Ingeniero de Software! Unase al programa de Amazon Technical Academy."
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00c6d4-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A2EUQ1WTGCTBG2"
+          },
+          "RenderableContent": {
+            "S": "Learn more about Amazon Technical Academy.  Click here!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "cd00cf58-9b48-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A2EUQ1WTGCTBG2"
+          },
+          "RenderableContent": {
+            "S": "<div class=\"ata-ad\"></div> "
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b635ca2-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A2EUQ1WTGCTBG2"
+          },
+          "RenderableContent": {
+            "S": "What's better than buying a bottle of Maple Syrup? Becoming a Software Development Engineer that can buy cases of Maple Syrup. Join ATA, learn how today!"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ContentId": {
+            "S": "0b635ef0-9c16-11e8-98d0-529269fb1459"
+          },
+          "MarketplaceId": {
+            "S": "A2EUQ1WTGCTBG2"
+          },
+          "RenderableContent": {
+            "S": "You are in demand if you can code! Join ATA and get the skills needed to become a Software Development Engineer! Learn How."
+          }
+        }
+      }
+    }
+  ]
+}

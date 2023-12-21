@@ -1,0 +1,42 @@
+Resources:
+  ContentTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: "ContentId"
+          AttributeType: "S"
+        - AttributeName: "MarketplaceId"
+          AttributeType: "S"
+      KeySchema:
+        - AttributeName: "ContentId"
+          KeyType: "HASH"
+      BillingMode: "PAY_PER_REQUEST"
+      TableName: "Content"
+      GlobalSecondaryIndexes:
+        - IndexName: "MarketplaceIdIndex"
+          KeySchema:
+            - AttributeName: "MarketplaceId"
+              KeyType: "HASH"
+          Projection:
+            ProjectionType: ALL
+
+  TargetingGroupsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: "TargetingGroupId"
+          AttributeType: "S"
+        - AttributeName: "ContentId"
+          AttributeType: "S"
+      KeySchema:
+        - AttributeName: "TargetingGroupId"
+          KeyType: "HASH"
+      BillingMode: "PAY_PER_REQUEST"
+      TableName: "TargetingGroups"
+      GlobalSecondaryIndexes:
+        - IndexName: "ContentIdIndex"
+          KeySchema:
+            - AttributeName: "ContentId"
+              KeyType: "HASH"
+          Projection:
+            ProjectionType: ALL

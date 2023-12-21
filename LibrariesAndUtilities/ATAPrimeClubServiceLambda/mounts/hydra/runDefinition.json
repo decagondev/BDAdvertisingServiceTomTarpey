@@ -1,0 +1,24 @@
+{
+  "SchemaVersion": "1.0",
+  "SchemaType": "HydraJavaTestNG",
+  "HydraParameters": {
+  },
+  "HandlerParameters": {
+    "parameters": {
+      "awsAccountId": "301700843494",
+      "domain": "beta",
+      "realm": "us-west-2",
+      "endpointOverride": "http://com.amazon.ataprimeclubservicelambda"
+    },
+    "tests": [
+      {
+        "name": "ATAPrimeClubServiceLambdaTests",
+        "packages": [
+          {
+            "name": "com.amazon.ataprimeclubservicelambda.*"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<project name="ATACustomerServiceLambda-1.0" basedir="." default="release" xmlns:ht="happytrails" xmlns:coral="antlib:com.amazon.coral" xmlns:ht-aj="ht-aspectj">
+
+  <property name="standard.compile.classpath.suffix"
+            value="${bp:[DaggerBuildTool]run.classpath}${path.separator}${bp:[DeclarativeCoralMetricsAspectJ]pkg.classpath}"/>
+  
+  <property name="checkstyle.configuration.file" location="checkstyle.xml" />
+  <property name="ht.include.cfg" value="true" />
+  <property name="findbugs.failOnError" value="false" />
+  <property name="checkstyle.failOnError" value="false" />
+  <import file="${happytrails.root}/happytrails.xml"/>
+  <ht:import file="validate-classpath.xml" />
+
+  <!-- Define HappierTrails property overrides here -->
+  <property name="tests.additional.jvmargs" value=""/>
+  <property name="coral-src.dir" location="${output.dir}/private/src" />
+  <property name="coral-tst.dir" location="${output.dir}/private/tst" />
+  <ht:import file="happier-trails.xml"/>
+  
+  <ht:import file="dagger/happier-trails.xml"/>
+  
+    <!-- AspectJ for metrics weaving and whatnot -->
+  <ht:import file="ht-aspectj.xml"/>
+
+  <target name="ht-post-compile" depends="weave-aspectj"/>
+  <target name="weave-aspectj">
+      <ht-aj:standard-aj-weave>
+          <inpath>
+              <pathelement path="${classes.dir}/com/amazon/atacustomerservicelambda>/"/>
+              <pathelement path="${bp:[DeclarativeCoralMetricsAspectJ]pkg.classpath}"/>
+          </inpath>
+      </ht-aj:standard-aj-weave>
+  </target>
+  
+  <ht:import file="coral-generator.xml"   optional="false"/>
+  <property name="coral-model-package" value="ATACustomerServiceLambdaModel" />
+
+  <target name="compile" depends="standard-compile, weave-aspectj" />
+
+  <target name="validate-classpath">
+    <ht:validateClasspath classpath="${bp:run.classpath}" failOnConflicts="true" />
+  </target>
+
+  <target name="release" depends="standard-release,validate-classpath" />
+
+</project>

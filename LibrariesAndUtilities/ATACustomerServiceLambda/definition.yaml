@@ -1,0 +1,80 @@
+version: 2016-11-18
+stack:
+  name: ATACustomerServiceLambdaStack
+  # Please see the following guide on how to configure credentials: https://w.amazon.com/index.php/RDE/How_do_I#Use_AWS_credentials_on_my_Mac
+
+  devAccount:
+    type: Conduit
+    roleArn: arn:aws:iam:::role/IibsAdminAccess-DO-NOT-DELETE
+
+  applications:
+    ATACustomerServiceLambda:
+      type: sam
+      codeURI: ../../
+      packages:
+        ATACustomerServiceLambda:
+          buildTarget: release
+          isApplicationTarget: true
+          isBatsParameter: true
+        ATACustomerServiceLambdaModel:
+          buildTarget: release
+      environment:
+        variables:
+          AWS_REGION: us-west-2
+          #BEER_TABLE_NAME: 'REPLACE_WITH_ACTUAL_DDB_TABLE_NAME'
+      mountPoints:
+      - sourceURI: mounts/events/create_beer.json
+        destinationURI: /tmp/events/create_beer.json
+      - sourceURI: mounts/events/get_beer.json
+        destinationURI: /tmp/events/get_beer.json
+      networkMappings:
+      - name: com.amazon.atacustomerservicelambda
+        internalPort: 3000
+        externalPort: 80
+        exposedPort: 1180
+        protocol: http
+    HydraTestApp:
+      type: hydra
+      codeURI: ../../
+      runDefinitionURI: mounts/hydra/runDefinition.json
+      packages:
+        ATACustomerServiceLambdaTests:
+          buildTarget: release
+          isApplicationTarget: true
+steps:
+  #The build step will also update the java artifacts without having to restart the stack.
+  #You can combine the build step with the test steps to make sure you are running
+  #with the latest changes deployed
+  build:
+    type: build
+  deploy:
+    type: deploy
+  test-invoke-create-beer:
+    type: stackExec
+    arguments:
+      applications:
+      - ATACustomerServiceLambda
+      command: aws-sam-local local invoke LambdaFunction --event /tmp/events/create_beer.json
+  test-invoke-get-beer:
+    type: stackExec
+    arguments:
+      applications:
+      - ATACustomerServiceLambda
+      command: aws-sam-local local invoke LambdaFunction --event /tmp/events/get_beer.json
+  run-hydra-tests:
+    type: stackExec
+    arguments:
+      applications:
+      - HydraTestApp
+      command: run-hydra-tests
+workflows:
+  default:
+  - build
+  - deploy
+  test:
+  - test-invoke-create-beer
+  - test-invoke-get-beer
+  update-and-test:
+  - build
+  - test-invoke-create-beer
+  - test-invoke-get-beer

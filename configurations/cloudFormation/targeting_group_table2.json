@@ -1,0 +1,400 @@
+{
+  "TargetingGroups": [
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "8533d24b-1fad-493e-b043-f431c980ad9d"
+          },
+          "ContentId": {
+            "S": "1d2e74a6-9b4b-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.095"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"MOM_DISCOUNT\"}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "c7bb737f-7cfb-4ca8-a695-402f69588544"
+          },
+          "ContentId": {
+            "S": "cd00d1f6-9b48-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.085"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "eecf61af-7391-4d6a-8f69-e570c1353a84"
+          },
+          "ContentId": {
+            "S": "0b634500-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.0935"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_36_TO_45\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"TECHNICAL_BOOKS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"COMPUTERS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "13aad259-bd3f-4583-99c0-49ee4c88b4da"
+          },
+          "ContentId": {
+            "S": "0b63428a-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.06713"
+          },
+          "TargetingPredicate": {
+            "S": "[]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "fe1b23bb-3886-4bca-b960-e116f9656578"
+          },
+          "ContentId": {
+            "S": "0b63307e-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.19417"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"PRIME_VIDEO\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "8c29cc96-dac9-43a8-bb86-b4f9e29c35ca"
+          },
+          "ContentId": {
+            "S": "0b63307e-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.13853"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"AMAZON_MUSIC\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "007d0bb4-390f-4dcb-a354-29dec85961e0"
+          },
+          "ContentId": {
+            "S": "0b633934-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.1184"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"FREE_EXPEDITED_SHIPPING\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"VIDEO_GAMES\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "d91658dc-bcde-4c70-a955-75e5bc80dc53"
+          },
+          "ContentId": {
+            "S": "0b6359f0-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.05262"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "b389bc42-7a18-4196-bc4f-7a0515728311"
+          },
+          "ContentId": {
+            "S": "0b632e26-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.03929"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"FRESH\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "249959cc-eab8-4d76-8434-4803fc877246"
+          },
+          "ContentId": {
+            "S": "0b632e26-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.0073"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"AGE_22_TO_25\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"FRESH\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "1d3686dd-9211-46e6-b315-abcbeeb3c97d"
+          },
+          "ContentId": {
+            "S": "0b632e26-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.18007"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"AGE_26_TO_30\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"FRESH\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "8b4e796d-d251-4c07-9e45-875220f4810d"
+          },
+          "ContentId": {
+            "S": "0b632e26-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.03437"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"AGE_31_TO_35\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"FRESH\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "91e5ef85-6f72-4ea6-92e9-29fba5bf90bb"
+          },
+          "ContentId": {
+            "S": "0b6332d6-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.05028"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_22_TO_25\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"DIM_SUM\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"KINDLE\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"TECHNICAL_BOOKS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "025bb45e-ce1e-4110-8188-9b2f81f5c305"
+          },
+          "ContentId": {
+            "S": "0b63403c-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.15268"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"MOM_DISCOUNT\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendValueTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"VIDEO_GAMES\",\"comparison\":\"GT\",\"targetedValue\":50}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "c7cba0dd-3ab9-49e5-8bb5-eb0530b5da0a"
+          },
+          "ContentId": {
+            "S": "0b63403c-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.17109"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"MOM_DISCOUNT\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendValueTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"VIDEO_GAMES\",\"comparison\":\"GT\",\"targetedValue\":50}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "caa1e249-c02c-47a7-a8f6-e019b856ac29"
+          },
+          "ContentId": {
+            "S": "0b633bb4-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.19168"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":false,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"FREE_EXPEDITED_SHIPPING\"}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "b6ec3b1a-37c8-45e3-ae9e-6a2ce4ec8ffb"
+          },
+          "ContentId": {
+            "S": "0b633dee-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.16681"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"VIDEO_GAMES\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "bb631243-e108-41ea-8cd0-fd2bad2a48df"
+          },
+          "ContentId": {
+            "S": "0b633dee-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.03204"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"COMPUTERS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "9d0c401c-e2f8-4335-a3bd-94d12cb21ef6"
+          },
+          "ContentId": {
+            "S": "0b633dee-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.05202"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"TECHNICAL_BOOKS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "34e1a778-dcf8-44c8-9bd6-9b5efefb1e07"
+          },
+          "ContentId": {
+            "S": "0b633dee-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.15155"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_18_TO_21\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendValueTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"VIDEO_GAMES\",\"comparison\":\"GT\",\"targetedValue\":50}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "c8597aa6-c363-4984-be55-4a2009857037"
+          },
+          "ContentId": {
+            "S": "0b635ca2-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.08514"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_36_TO_45\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"AGE_46_TO_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.AgeTargetingPredicate\",\"inverse\":true,\"targetedAgeRange\":\"OVER_60\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.PrimeBenefitTargetingPredicate\",\"inverse\":false,\"benefitToHave\":\"FREE_EXPEDITED_SHIPPING\"},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"TECHNICAL_BOOKS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0},{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.CategorySpendFrequencyTargetingPredicate\",\"inverse\":false,\"targetedCategory\":\"COMPUTERS\",\"comparison\":\"GT\",\"targetedNumberOfPurchases\":0}]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TargetingGroupId": {
+            "S": "ef281ea0-da28-422b-b71f-d945df43c461"
+          },
+          "ContentId": {
+            "S": "0b635ef0-9c16-11e8-98d0-529269fb1459"
+          },
+          "ClickThroughRate": {
+            "N": "0.03725"
+          },
+          "TargetingPredicates": {
+            "S": "[{\"@class\":\"com.amazon.ata.advertising.service.targeting.predicate.ParentPredicate\",\"inverse\":false}]"
+          }
+        }
+      }
+    }
+  ]
+}
